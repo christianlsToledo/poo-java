@@ -67,12 +67,12 @@ package aula05.contabanco;
             this.setTipo(tp);
             if ("cc".equals(tp)){
                 this.setStatus(true);
-                this.setSaldo(50f);
+                this.setSaldo(this.getSaldo()+50f);
                 System.out.println("Credito por abertura de Conta Corrente R$50,00.");
             }else{
                 if ("cp".equals(tp)){
                     this.setStatus(true);
-                this.setSaldo(150f);
+                this.setSaldo(this.getSaldo()+150f);
                     System.out.println("Credito por abertura de Conta Poupança R$150,00.");
                 }else{
                     System.out.println("Informe um tipo de conta valido!");
