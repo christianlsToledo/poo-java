@@ -1,0 +1,27 @@
+body{
+    background-color: #ffffff;
+    font-family: arial;
+}
+
+h1 {
+    color: #000000;
+    text-align: center;
+    text-shadow: 2px 2px 2px 3px rgba(0,0,0,.2);
+}
+fieldset {
+	border-radius: 20px;
+	border-color: #cecece;
+	margin: 20px;
+        width: 400px;
+        margin: auto;
+        padding: 30px;
+        box-shadow: 2px 2px 2px rgba(0,0,0,.3);
+}
+legend {
+	color: #888888;
+	font-weight: bold;
+	font-size: 13pt;
+}
+input:hover, textarea:hover{
+	background: rgba(0,0,0,.1);
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Conversor de moedas</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="primerocss.css"/>
+        <script language="javascript" src="newjavascript.js"></script>
+    </head>
+    <body>
+        <div>
+            <h1>Imersão Alura</h1>
+            <fieldset><legend>Conversor de moedas</legend>
+                    <p>Moeda: <select name="nMoeda" id="iMoeda">
+                                <option value="1">Real -> Dolar</option>
+                                <option value="2">Dolar -> Real</option>
+                    </select></p>
+                    <p><label for="iVal">Informe o valor: </label>
+                        <input type="number" name="nVal" id="iVal" min="0" value="0" placeholder="Valor de conversão" oninput="calcTot()"/></p>
+                    <p>R$: <input type="text" name="nTot" id="iTot" placeholder="Total convertido" readonly/></p>
+            </fieldset>
+        </div>
+    </body>
+</html>
