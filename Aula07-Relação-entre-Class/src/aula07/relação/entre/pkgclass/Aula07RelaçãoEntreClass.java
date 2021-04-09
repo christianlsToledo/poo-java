@@ -15,14 +15,9 @@ public class Aula07RelaçãoEntreClass {
         l[6] = new ClasseLutador("Christian","Brasil",36,1.78f,89.5f,0,0,0);
         l[7] = new ClasseLutador("Alex","Brasil",42,1.75f,123f,0,0,0);
         
-        l[0].apresentar();
-        l[0].status();
-        
-//        l[6].empatarLuta();
-//        l[6].ganharLuta();
-//        l[6].perderLuta();
-//        
-//        l[6].apresentar();
-//        l[6].status();
+        Luta ufc = new Luta();
+                //Lutador(1), Lutador(2), Rounds(quant)
+        ufc.marcarLuta(l[4], l[1], 3);
+        ufc.lutar();
     }
 }

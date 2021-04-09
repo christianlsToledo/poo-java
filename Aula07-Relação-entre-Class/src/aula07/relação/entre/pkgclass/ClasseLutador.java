@@ -68,19 +68,19 @@ public class ClasseLutador implements InterfaceLutador{
             this.categoria = "Invalida!";
         }
     }
-    private int getVitorias() {
+    public int getVitorias() {
         return vitorias;
     }
     private void setVitorias(int vitorias) {
         this.vitorias = vitorias;
     }
-    private int getDerrotas() {
+    public int getDerrotas() {
         return derrotas;
     }
     private void setDerrotas(int derrotas) {
         this.derrotas = derrotas;
     }
-    private int getEmpates() {
+    public int getEmpates() {
         return empates;
     }
     private void setEmpates(int empates) {
