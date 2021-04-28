@@ -13,9 +13,9 @@ public class Aula12Polimorfismo {
          teste.setPeso(2.5f);
          teste.setIdade(2);
          teste.setMembros(4);
-         System.out.print("Se alimentão "); teste.alimentar();
-         System.out.print("Se locomovem "); teste.locomover();
-         System.out.print("Se comunicam por "); teste.emitirSom();
+//         System.out.print("Se alimentão "); teste.alimentar();
+//         System.out.print("Se locomovem "); teste.locomover();
+//         System.out.print("Se comunicam por "); teste.emitirSom();
                 //Especializações
         //Mamiferos
 //            teste.setCorPelo("Marrom");
@@ -35,6 +35,18 @@ public class Aula12Polimorfismo {
         //Mamifero Cachorro
 //              teste.enterrarOsso();
 //              teste.abanarRabo();
+                teste.reagir(false);
+//                teste.reagir("Bom garoto");
+//                teste.reagir("Vai deitar");
+//                teste.reagir(true);//Dono
+//                teste.reagir(false);//não dono
+//                teste.reagir(3, 2.5f);//Idastede Peso
+//                teste.reagir(4,12f);
+//                teste.reagir(6, 9f);
+//                teste.reagir(7, 12f);
+//                teste.reagir(11, 45);
+//                teste.reagir(13, 0);
+//                teste.reagir(19, 0);
         //Reptil Cobra
 //            //Sem implementações adicionais
         //Reptil Tartaruga
